@@ -1,0 +1,22 @@
+criar uma pasta na pasta do xampp(xampp/htdocs)
+(nome da pasta: tela de login)
+
+clickar em sql
+
+create database login;
+
+use login;
+
+create table usuarios(
+id_usuario int auto_increment primary key,
+nome varchar(30),
+telefone varchar(30),
+email varchar(40),
+senha varchar(32)
+
+);
+
+clickar em executar
+
+
+*http://localhost/tela%20de%20login/
